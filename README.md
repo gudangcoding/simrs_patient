@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# SIMRS Patient Mobile (Expo + Expo Router)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi mobile untuk pasien SIMRS berbasis React Native (Expo) dengan Expo Router, Redux Toolkit, dan Axios.
 
 ## Get started
 
@@ -24,6 +24,22 @@ In the output, you'll find options to open the app in a
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Backend Repository
+
+Backend Laravel + Inertia.js untuk proyek ini tersedia di:
+
+- Backend SIMRS: [gudangcoding/simrs-opensource](https://github.com/gudangcoding/simrs-opensource)
+
+Pastikan backend berjalan dan dapat diakses dari perangkat/emulator. Atur base URL API di environment variable berikut:
+
+```
+EXPO_PUBLIC_API_BASE_URL=http://<HOST>:8000/api/patient
+```
+
+- Web/iOS simulator di mesin yang sama: `http://localhost:8000/api/patient`
+- Android emulator: `http://10.0.2.2:8000/api/patient`
+- Device fisik (Expo Go): `http://<IP_LAN>:8000/api/patient` (contoh `http://192.168.1.10:8000/api/patient`)
 
 ## Get a fresh project
 
