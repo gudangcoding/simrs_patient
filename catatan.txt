@@ -1,0 +1,1 @@
+terimakasih banyak ya, bisakah kamu bantu buatkan aplikasi mobilenya juga dengan react native expo dengan library expo router, redux thunk,axios, alamat proyek mobile ada di folder:D:\KURSUS\ANDROID JS\simrs_patient?
